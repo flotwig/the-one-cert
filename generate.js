@@ -1,7 +1,7 @@
 const fs = require('fs')
 const cp = require('child_process')
 
-//cp.execFileSync('./clean.sh')
+cp.execFileSync('./clean.sh')
 
 const ws = fs.createWriteStream('openssl.cnf')
 const rs = fs.createReadStream('openssl.cnf.base')
