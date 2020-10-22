@@ -10,6 +10,13 @@ Specifically, it is valid for all possible subdomains (127 possible combinations
 
 You can regenerate the key by running `node generate.js`.
 
+```
+One cert to rule them all,
+   one cert to find them,
+One cert to bring them all
+   and in the browser bind them.
+```
+
 ## Output from `openssl x509 -in one-cert.crt -text -noout`
 
 ```
